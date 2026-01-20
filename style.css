@@ -1,41 +1,107 @@
 body {
-    margin: 0; /*oq e margin ? remove a margem padrão do body */
-    height: 100vh;/* oq e height ? 100vh significa 100% da altura da viewport */
-    justify-content: center; /* oq e justify-content ? centraliza o conteúdo horizontalmente */
-    align-items: center; /* oq e align-items ? centraliza o conteúdo verticalmente */
-    font-family: Arial, Helvetica, sans-serif; /* oq e font-family ? define a fonte do texto */
-    background-color: #f2f2f2; /* oq e background-color ? define a cor de fundo da página */;
+    margin: 0;
+    /*oq e margin ? remove a margem padrão do body */
+    height: 100vh;
+    /* oq e height ? 100vh significa 100% da altura da viewport */
+    justify-content: center;
+    /* oq e justify-content ? centraliza o conteúdo horizontalmente */
+    align-items: center;
+    /* oq e align-items ? centraliza o conteúdo verticalmente */
+    font-family: Arial, Helvetica, sans-serif;
+    /* oq e font-family ? define a fonte do texto */
+    background-color: #f2f2f2;
+    /* oq e background-color ? define a cor de fundo da página */
+    ;
 }
 
 .container {
-    text-align: center; /* oq e text-align ? centraliza o texto dentro do container */
-    background-color: white; /* oq e background-color ? define a cor de fundo do container */
-    padding: 40px; /* oq e padding ? adiciona espaço interno ao redor do conteúdo do container */
-    border-radius: 10px; /* oq e border-radius ? arredonda os cantos do container */
+    text-align: center;
+    /* oq e text-align ? centraliza o texto dentro do container */
+    background-color: white;
+    /* oq e background-color ? define a cor de fundo do container */
+    padding: 40px;
+    /* oq e padding ? adiciona espaço interno ao redor do conteúdo do container */
+    border-radius: 10px;
+    /* oq e border-radius ? arredonda os cantos do container */
 
 }
 
-button{
-    margin-top: 20px; /* oq e margin-top ? adiciona espaço acima do botão */
-    padding: 10px 20px; /* oq e padding ? adiciona espaço interno ao redor do texto do botão */
-    border: none; /* oq e border ? remove a borda padrão do botão */
-    background-color: #4CAF50; /* oq e background-color ? define a cor de fundo do botão */
-    color: white; /* oq e color ? define a cor do texto do botão */        
-    font-size: 16px; /* oq e font-size ? define o tamanho da fonte do texto do botão */
-    cursor: pointer; /* oq e cursor ? muda o cursor para uma mãozinha ao passar sobre o botão */
-    display: flex; /* oq e display ? ativa o flexbox para alinhar ícone e texto */
-    align-items: center; /* oq e align-items ? centraliza o ícone e texto verticalmente */
-    gap: 5px; /* oq e gap ? adiciona espaço entre o ícone e o texto */
+button {
+    margin-top: 20px;
+    /* oq e margin-top ? adiciona espaço acima do botão */
+    padding: 10px 20px;
+    /* oq e padding ? adiciona espaço interno ao redor do texto do botão */
+    border: none;
+    /* oq e border ? remove a borda padrão do botão */
+    background-color: #4CAF50;
+    /* oq e background-color ? define a cor de fundo do botão */
+    color: white;
+    /* oq e color ? define a cor do texto do botão */
+    font-size: 16px;
+    /* oq e font-size ? define o tamanho da fonte do texto do botão */
+    cursor: pointer;
+    /* oq e cursor ? muda o cursor para uma mãozinha ao passar sobre o botão */
+    display: flex;
+    /* oq e display ? ativa o flexbox para alinhar ícone e texto */
+    align-items: center;
+    /* oq e align-items ? centraliza o ícone e texto verticalmente */
+    gap: 5px;
+    /* oq e gap ? adiciona espaço entre o ícone e o texto */
 }
+
 button:hover {
-    background-color: #45a049; /* oq e :hover ? altera a cor de fundo do botão quando o mouse está sobre ele */
+    background-color: #45a049;
+    /* oq e :hover ? altera a cor de fundo do botão quando o mouse está sobre ele */
 }
 
 .minhasredes {
-    display: flex; /* oq e display ? ativa o flexbox para layout flexível */
-    flex-direction: column; /* oq e flex-direction ? organiza os itens em coluna (um abaixo do outro) */
-    align-items: center; /* oq e align-items ? centraliza os itens horizontalmente */
-    justify-content: center; /* oq e justify-content ? centraliza os itens verticalmente */
-    width: 100%; /* oq e width ? define a largura como 100% da página para tamanho normal */
-    gap: 10px; /* oq e gap ? adiciona espaço entre os itens */
+    display: flex;
+    /* oq e display ? ativa o flexbox para layout flexível */
+    flex-direction: column;
+    /* oq e flex-direction ? organiza os itens em coluna (um abaixo do outro) */
+    align-items: center;
+    /* oq e align-items ? centraliza os itens horizontalmente */
+    justify-content: center;
+    /* oq e justify-content ? centraliza os itens verticalmente */
+    width: 100%;
+    /* oq e width ? define a largura como 100% da página para tamanho normal */
+    gap: 10px;
+    /* oq e gap ? adiciona espaço entre os itens */
+}
+
+.btn-email {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-email:hover {
+    background-color: #555;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+   li{
+        margin: 8px 0;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+    }
 }
